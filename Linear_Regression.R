@@ -6,8 +6,7 @@ library(corrplot)
 getwd()
 
 # Set Working Directory
-# setwd("C:/Users/Rahul/Documents/IMR/Data_Linear_Regression/")
-setwd("C:/Users/anusa/Downloads")
+setwd("C:/Users/aaa/Downloads")
 getwd() # Check/ Confirm if the directory has changed
 
 # Read the data file
@@ -300,13 +299,4 @@ mean(abs((Actual - Prediction)/Actual))*100 # 16%
 # Check MAPE and RMSE results using forecast package
 # library(forecast)
 # accuracy(M4_Pred, Test$Sale_Price)
-
-
-############################
-# Additional/ Practical aspects to be tried out 
-############################
-
-# 1. Take a different training and testing sample. Check MAPE score
-# 2. Add more information (indep variables) to the model (this generally happens in client projects)
-# 3. Try out other algorithms (We are yet to cover this point in this curriculum)
 
